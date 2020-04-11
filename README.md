@@ -25,7 +25,41 @@ Track the home quarantine people in 500 meter radius from the given location.
   ```
   $ python manage.py runserver
   ```
-  * Open web browser and goto `127.0.0.1:8000`.
+  * Open web browser and goto [localhost](http://127.0.0.1:8000/).
   * Search the location to see the quarantine people around that location, by
     default heatmap will show the data based on current location of the user. 
 
+## How to use API?
+  * To fetch the nearby quarantine users location, use the below endpoint with the *lat, lng* and *radius*.
+  
+  #### URL
+  [https://corona-cases-info.herokuapp.com/api/nearby-quarantined/?lat=12.9145978&lng=77.6653456&radius=500](https://corona-cases-info.herokuapp.com/api/nearby-quarantined/?lat=12.9145978&lng=77.6653456&radius=500)
+  
+  #### Response (JSON) 
+  ```json
+ 
+   {
+   "nearby_users":[
+      [
+         12.9191337,
+         77.66513309999999
+     ],
+      [
+         12.9191337,
+         77.66513309999999
+      ],
+      [
+         12.9191337,
+         77.66513309999999
+      ],
+      [
+         12.9191337,
+         77.66513309999999
+      ]
+      .....
+   ]
+}
+  
+  
+  
+  
