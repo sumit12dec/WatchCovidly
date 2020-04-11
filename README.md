@@ -42,11 +42,11 @@ Track the home quarantine people in 500 meter radius from the given location.
    "nearby_users":[
       [
          12.9191337,
-         77.66513309999999
+         77.6651330
      ],
       [
          12.9189321,
-         77.66513309999999
+         77.6649726
       ],
       [
          12.9191337,
