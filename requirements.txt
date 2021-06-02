@@ -4,4 +4,4 @@ Django==2.2.18
 idna==2.9
 pytz==2019.3
 requests==2.23.0
-urllib3==1.25.8
+urllib3==1.26.5
